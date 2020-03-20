@@ -2,9 +2,12 @@ import React from 'react'
 
 export default function comedy() {
     return (
-        <div>
-            <h1>Comedy and Standup</h1>
+        <div className="container">
+            <title>Comedy and Standup</title>
             <h3>Sign Up</h3>
+
+
+            
             <style jsx>{`
       .container {
         min-height: 100vh;

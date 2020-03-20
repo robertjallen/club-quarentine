@@ -2,9 +2,11 @@ import React from 'react'
 
 export default function houseparty() {
     return (
-        <div>
-            <h1>House Party Channel</h1>
+        <div className="container">
+            <title>House Party Channel</title>
             <h3>Sign Up</h3>
+
+            
             <style jsx>{`
       .container {
         min-height: 100vh;
