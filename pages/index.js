@@ -10,6 +10,12 @@ import comedy from '../images/comedy.svg'
 const Home = () => (
   <div className="container">
     <Head>
+
+      <meta property="og:url" content="https://club-quarentine.now.sh" />
+      <meta property="og:type" content="article" />
+      <meta property="og:title"  content="Club Quarentine" />
+      <meta property="og:description"  content="Club Quarentine provides a cure from social isolation?" />
+      <meta property="og:image"  content="https://club-quarentine.now.sh/_next/static/images/entertainment-9bdd50598b32042775faca812234ed37.png" />
       <title>CLUB QUARENTINE</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
