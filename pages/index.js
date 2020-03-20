@@ -57,7 +57,7 @@ const Home = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        Umbrella Corporation Productions
+        Umbrella Corporation Productions ⛱️
       </a>
     </footer>
 
