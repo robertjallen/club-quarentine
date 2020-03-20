@@ -20,7 +20,7 @@ const Home = () => (
       </h1>
 
       <p className="description">
-        Lets Party
+        Lets Party 🎉 🥂
       </p>
 
       <div className="grid">
