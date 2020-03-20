@@ -24,26 +24,26 @@ const Home = () => (
       </p>
 
       <div className="grid">
-        <a href="#" className="card">
+        <a href="/comedy" className="card">
           <h3>Comedy &rarr;</h3>
           <p>Our interactive virtual comedy shows are the best.</p>
           <img className="card-image" src={comedy}/>
           
         </a>
 
-        <a href="#" className="card">
+        <a href="/karaoke" className="card">
           <h3>Karaoke &rarr;</h3>
           <p>Sing your heart out!</p>
           <img className="card-image" src={karaoke}/>
         </a>
 
-        <a href="#" className="card">
+        <a href="/houseparty" className="card">
           <h3>House party &rarr;</h3>
           <p>Socialize and hangout with other people virtually</p>
           <img className="card-image" src={houseparty}/>
         </a>
 
-        <a href="#" className="card">
+        <a href="entertainment" className="card">
           <h3>Party Entertainment &rarr;</h3>
           <p>Our amazing entertainers will blow your mind.</p>
           <img className="card-image" src={entertainment} />
