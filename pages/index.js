@@ -1,59 +1,54 @@
 import Head from 'next/head'
+import {entertainment} from '../images/entertainment.png'
 
 const Home = () => (
   <div className="container">
     <Head>
-      <title>Create Next App</title>
+      <title>CLUB QUARENTINE</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
     <main>
       <h1 className="title">
-        Welcome to <a href="https://nextjs.org">Next.js!</a>
+        Welcome to <a href="#">CLUB QUARENTINE</a>
       </h1>
 
       <p className="description">
-        Get started by editing <code>pages/index.js</code>
+        Lets Party
       </p>
 
       <div className="grid">
-        <a href="https://nextjs.org/docs" className="card">
-          <h3>Documentation &rarr;</h3>
-          <p>Find in-depth information about Next.js features and API.</p>
+        <a href="#" className="card">
+          <h3>Comedy &rarr;</h3>
+          <p>Our interactive virtual comedy shows are the best.</p>
         </a>
 
-        <a href="https://nextjs.org/learn" className="card">
-          <h3>Learn &rarr;</h3>
-          <p>Learn about Next.js in an interactive course with quizzes!</p>
+        <a href="#" className="card">
+          <h3>Karaoke &rarr;</h3>
+          <p>Sing your heart out!</p>
         </a>
 
-        <a
-          href="https://github.com/zeit/next.js/tree/master/examples"
-          className="card"
-        >
-          <h3>Examples &rarr;</h3>
-          <p>Discover and deploy boilerplate example Next.js projects.</p>
+        <a href="#" className="card">
+          <h3>House party &rarr;</h3>
+          <p>Socialize and hangout with other people virtually</p>
         </a>
 
-        <a
-          href="https://zeit.co/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          className="card"
-        >
-          <h3>Deploy &rarr;</h3>
-          <p>
-            Instantly deploy your Next.js site to a public URL with ZEIT Now.
-          </p>
+        <a href="#" className="card">
+          <h3>Party Entertainment &rarr;</h3>
+          <p>Our amazing entertainers will blow your mind.</p>
+          <img src={entertainment} />
+          {/* <img src="../images/entertainment.jpg" alt="ZEIT Logo" /> */}
         </a>
       </div>
     </main>
 
     <footer>
       <a
-        href="https://zeit.co?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+        href="#"
         target="_blank"
         rel="noopener noreferrer"
       >
-        Powered by <img src="/zeit.svg" alt="ZEIT Logo" />
+        Umbrella Corporation Productions <img src="/zeit.svg" alt="ZEIT Logo" />
       </a>
     </footer>
 
