@@ -4,7 +4,10 @@ export default function comedy() {
     return (
         <div className="container">
             <title>Comedy and Standup</title>
-            <div id="ballMenuContainer">
+
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdN-L8XsL42CvrxR8Aph0X_RKpJXhE0FSTzmuEqaGjvBshFrg/viewform?embedded=true" width="640" height="1816" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+            {/* <div id="ballMenuContainer">
                 <div id="menuBall1" className="menuBall">
                     <a href="#" className="ball blueball">
                         <div className="menuText">
@@ -12,7 +15,7 @@ export default function comedy() {
                         </div>
                     </a>
                 </div>
-            </div>
+            </div> */}
 
 
 
@@ -24,6 +27,8 @@ export default function comedy() {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        background: black;
+        color: #fff;
       }
 
       main {
