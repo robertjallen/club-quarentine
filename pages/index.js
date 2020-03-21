@@ -2,9 +2,7 @@ import Head from 'next/head'
 import entertainment from '../images/entertainment.png'
 import houseparty from '../images/houseparty.svg'
 import karaoke from '../images/karaoke.svg'
-import comedy from '../images/comedy.svg'
-
- 
+import comedy from '../images/crimson_comedy.svg'
 
 
 const Home = () => (
@@ -13,16 +11,16 @@ const Home = () => (
 
       <meta property="og:url" content="https://club-quarentine.now.sh" />
       <meta property="og:type" content="article" />
-      <meta property="og:title"  content="Club Quarentine" />
-      <meta property="og:description"  content="Club Quarentine provides a cure from social isolation." />
+      <meta property="og:title"  content="Club Quarantine" />
+      <meta property="og:description"  content="Club Quarantine provides a cure from social isolation." />
       <meta property="og:image"  content="https://club-quarentine.now.sh/_next/static/images/entertainment-9bdd50598b32042775faca812234ed37.png" />
-      <title>CLUB QUARENTINE</title>
+      <title>CLUB QUARANTINE</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
     <main>
       <h1 className="title">
-        Welcome to <a href="#">CLUB QUARENTINE</a>
+        Welcome to <a href="#">CLUB QUARANTINE</a>
       </h1>
 
       <p className="description">
@@ -34,10 +32,9 @@ const Home = () => (
           <h3>Comedy &rarr;</h3>
           <p>Our interactive virtual comedy shows are the best.</p>
           <img className="card-image" src={comedy}/>
-          
         </a>
 
-        <a href="/karaoke" className="card">
+        {/* <a href="/karaoke" className="card">
           <h3>Karaoke &rarr;</h3>
           <p>Sing your heart out!</p>
           <img className="card-image" src={karaoke}/>
@@ -53,7 +50,7 @@ const Home = () => (
           <h3>Party Entertainment &rarr;</h3>
           <p>Our amazing entertainers will blow your mind.</p>
           <img className="card-image" src={entertainment} />
-        </a>
+        </a> */}
       </div>
     </main>
 
@@ -75,6 +72,8 @@ const Home = () => (
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        background: black;
+        color: #fff;
       }
 
       main {
@@ -111,7 +110,7 @@ const Home = () => (
       }
 
       .title a {
-        color: #0070f3;
+        color: crimson;
         text-decoration: none;
       }
 
@@ -171,8 +170,8 @@ const Home = () => (
       .card:hover,
       .card:focus,
       .card:active {
-        color: #0070f3;
-        border-color: #0070f3;
+        color: crimson;
+        border-color: crimson;
       }
 
       .card h3 {
@@ -198,8 +197,7 @@ const Home = () => (
     `}</style>
 
     <style jsx global>{`
-      html,
-      body {
+      html, body {
         padding: 0;
         margin: 0;
         font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
