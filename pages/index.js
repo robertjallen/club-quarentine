@@ -15,7 +15,7 @@ const Home = () => (
       <meta property="og:type" content="article" />
       <meta property="og:title"  content="Club Quarentine" />
       <meta property="og:description"  content="Club Quarentine provides a cure from social isolation." />
-      <meta property="og:image"  content="https://club-quarentine.now.sh/_next/static/images/houseparty-c789690956ee2ef545ac85b2ac2d923a.svg" />
+      <meta property="og:image"  content="https://club-quarentine.now.sh/_next/static/images/entertainment-9bdd50598b32042775faca812234ed37.png" />
       <title>CLUB QUARENTINE</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
