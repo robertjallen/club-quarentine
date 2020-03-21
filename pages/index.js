@@ -20,12 +20,14 @@ const Home = () => (
 
     <main>
       <h1 className="title">
-        Welcome to <a href="#">CLUB QUARANTINE</a>
+        <a href="#">CLUB QUARANTINE</a>
       </h1>
 
-      <p className="description">
-        Lets Party 🎉 🥂
-      </p>
+      <div className="grid-1">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/lluK0PeVMnQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br></br>
+        <h3>#cureSocialIsolation </h3>
+        <h3>Lets Party🎉🥂</h3>
+      </div>
 
       <div className="grid">
         <a href="/comedy" className="card">
@@ -33,6 +35,8 @@ const Home = () => (
           <p>Our interactive virtual comedy shows are the best.</p>
           <img className="card-image" src={comedy}/>
         </a>
+
+        
 
         {/* <a href="/karaoke" className="card">
           <h3>Karaoke &rarr;</h3>
@@ -154,6 +158,16 @@ const Home = () => (
         max-width: 800px;
         margin-top: 3rem;
       }
+      .grid-1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 800px;
+        max-width: 80vw;
+        margin-top: 3rem;
+      }
 
       .card {
         margin: 1rem;
@@ -199,6 +213,7 @@ const Home = () => (
     <style jsx global>{`
       html, body {
         padding: 0;
+        max-width: 100%;
         margin: 0;
         font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
           Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
